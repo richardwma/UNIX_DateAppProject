@@ -5,3 +5,12 @@ import sys
 import json
 import argparse
 import geocoder
+
+def main():
+	parser = argparse.ArgumentParser()
+	#parser.add_argument('-a', action='store', dest='addr', help='Address')
+	#parser.add_argument('-c', action='store', dest='category', help='Food Category')
+
+if __name__ == '__main__':
+	main()
+
